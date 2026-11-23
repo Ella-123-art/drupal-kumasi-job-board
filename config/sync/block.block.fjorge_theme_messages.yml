@@ -1,0 +1,22 @@
+uuid: cf498e32-a991-459e-b9c3-319a3faad85a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - fjorge_theme
+_core:
+  default_config_hash: BZ5tpW7H8X4PVGRm3MImTIHd2tN0eF7zOtp4SpRYUA0
+id: fjorge_theme_messages
+theme: fjorge_theme
+region: highlighted
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

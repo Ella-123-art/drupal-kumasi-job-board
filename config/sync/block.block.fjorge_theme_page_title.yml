@@ -1,0 +1,20 @@
+uuid: 32666ba1-31e5-460e-9923-0b182ee93144
+langcode: en
+status: true
+dependencies:
+  theme:
+    - fjorge_theme
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: fjorge_theme_page_title
+theme: fjorge_theme
+region: sidebar_first
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

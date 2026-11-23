@@ -1,0 +1,22 @@
+uuid: f9c18c2e-aa1d-40c0-b77f-72af27d5da93
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - fjorge_theme
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: fjorge_theme_powered
+theme: fjorge_theme
+region: sidebar_first
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }
