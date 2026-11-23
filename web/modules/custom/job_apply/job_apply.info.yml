@@ -1,0 +1,5 @@
+name: Job Apply
+type: module
+description: Lets job seekers apply for jobs.
+core_version_requirement: ^11
+package: Custom

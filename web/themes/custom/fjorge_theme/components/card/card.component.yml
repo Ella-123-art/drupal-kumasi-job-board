@@ -1,0 +1,14 @@
+name: Card
+status: stable
+props:
+  type: object
+  properties:
+    title:
+      type: string
+      title: Title
+    url:
+      type: string
+      title: Link
+slots:
+  body:
+    title: Body

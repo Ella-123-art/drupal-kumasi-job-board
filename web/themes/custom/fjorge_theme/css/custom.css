@@ -1,0 +1,8 @@
+body { font-family: system-ui, sans-serif; background: #f7f7f9; color: #222; }
+a { color: #e4572e; }
+h1, h2 { color: #1d3557; }
+.card { background: #fff; border-radius: 12px; padding: 1.5rem; box-shadow: 0 2px 10px rgba(0,0,0,.08); }
+.job-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1.25rem; }
+.job-card { border-left: 5px solid #e4572e; }
+.job-card .views-field { margin: .35rem 0; }
+.job-card .views-label { font-weight: 600; color: #1d3557; }

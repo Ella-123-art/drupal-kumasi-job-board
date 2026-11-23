@@ -1,0 +1,15 @@
+<?php
+
+function job_apply_schema() {
+  $schema['job_application'] = [
+    'fields' => [
+      'id' => ['type' => 'serial', 'not null' => TRUE],
+      'name' => ['type' => 'varchar', 'length' => 255, 'not null' => TRUE],
+      'email' => ['type' => 'varchar', 'length' => 255, 'not null' => TRUE],
+      'job' => ['type' => 'varchar', 'length' => 255, 'not null' => TRUE],
+      'created' => ['type' => 'int', 'not null' => TRUE],
+    ],
+    'primary key' => ['id'],
+  ];
+  return $schema;
+}

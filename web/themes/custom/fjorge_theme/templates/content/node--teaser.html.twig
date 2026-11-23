@@ -1,0 +1,3 @@
+{% embed 'fjorge_theme:card' with { title: label|render|striptags|trim, url: url } %}
+  {% block body %}{{ content.body }}{% endblock %}
+{% endembed %}

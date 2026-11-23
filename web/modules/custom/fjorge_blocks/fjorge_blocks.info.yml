@@ -1,0 +1,5 @@
+name: Fjorge Blocks
+type: module
+description: Custom blocks for the practice site.
+core_version_requirement: ^11
+package: Custom

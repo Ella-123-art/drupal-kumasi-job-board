@@ -1,0 +1,7 @@
+job_apply.form:
+  path: '/jobs/apply'
+  defaults:
+    _form: '\Drupal\job_apply\Form\ApplyForm'
+    _title: 'Apply for a job'
+  requirements:
+    _permission: 'access content'
